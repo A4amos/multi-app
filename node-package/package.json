@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A small Node.js mathematics package",
   "main": "index.js",
+  "scripts": {
+      "build": "npm pack"
+  },
+  
   "repository": {
     "type": "git",
     "url": "https://github.com/smartcloud2023/smartcloud-multi-language-packages.git"
