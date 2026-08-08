@@ -49,10 +49,10 @@ jobs:
             - name: Create GitHub Release
               uses: softprops/action-gh-release@v2
               with:
-                tag_name: "v${{ steps.package.outputs.version }}"
-                name: "smartmath-node v${{ steps.package.outputs.version }}"
+                tag_name: "v${{ inputs.version }}"
+                name: "smartmath-node v${{ inputs.version }}"
                 body: |
-                    ## smartmath-node v${{ steps.package.outputs.version }}
+                    ## smartmath-node v${{ inputs.version }}
 
                     Node.js package published to GitHub Packages.
 
