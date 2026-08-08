@@ -6,10 +6,10 @@
   "scripts": {
       "build": "npm pack"
   },
-  
+
   "repository": {
     "type": "git",
-    "url": "https://github.com/smartcloud2023/smartcloud-multi-language-packages.git"
+    "url": "https://github.com/smartcloud2023/multi-app.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
