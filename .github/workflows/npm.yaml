@@ -65,4 +65,4 @@ jobs:
                 files: |
                     node-package/*.tgz
               env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                GITHUB_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
