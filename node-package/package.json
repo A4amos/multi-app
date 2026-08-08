@@ -1,0 +1,13 @@
+{
+  "name": "@smartcloud2023/smartmath-node",
+  "version": "1.0.0",
+  "description": "A small Node.js mathematics package",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smartcloud2023/smartcloud-multi-language-packages.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}

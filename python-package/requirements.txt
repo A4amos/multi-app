@@ -1,0 +1,4 @@
+setuptools>=61
+build>=1.2
+wheel>=0.44
+
