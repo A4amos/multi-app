@@ -1,6 +1,6 @@
 {
   "name": "@smartcloud2023/smartmath-node",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "A small Node.js mathematics package",
   "main": "index.js",
   "scripts": {
