@@ -30,7 +30,7 @@ jobs:
             
             - name: Configure npm for Nexus Repository
               run: |
-                AUTH=$(echo -n "${{ secrets.NEXUS_USERNAME }}:${{ secrets.NEXUS_PASSWORD }}" | base64)
+                AUTH=$(printf '%s:%s' "$NEXUS_USERNAME" "$NEXUS_PASSWORD" | base64 -w 0)
 
                 cat > ~/.npmrc <<EOF
                 registry=https://n.smartcloud9.online/repository/npm-hosted/
