@@ -45,7 +45,7 @@ jobs:
             - name: Test Nexus authentication
               run: npm whoami --registry https://n.smartcloud9.online/repository/npm-hosted/
                 
-            - name: Install dependencies
+            - name: Install dependencies,
               run: npm install 
 
             - name: Build package
