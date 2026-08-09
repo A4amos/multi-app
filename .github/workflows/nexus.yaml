@@ -52,4 +52,4 @@ jobs:
               run: npm run build
 
             - name: Publish package to Nexus Repository
-              run: npm publish --registry https://n.smartcloud9.online/repository/npm-hosted
+              run: npm publish
