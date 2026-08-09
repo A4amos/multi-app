@@ -38,9 +38,9 @@ jobs:
                 //n.smartcloud9.online/repository/npm-hosted/:always-auth=true
                 EOF
 
-                env:
-                  NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
-                  NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
+              env:
+                NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
+                NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
 
                 
 
