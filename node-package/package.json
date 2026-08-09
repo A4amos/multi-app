@@ -1,6 +1,6 @@
 {
   "name": "@smartcloud2023/smartmath-node",
-  "version": "2.7.0",
+  "version": "3.0.0",
   "description": "A small Node.js mathematics package",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
     "url": "https://github.com/smartcloud2023/multi-app.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://n.smartcloud9.online/repository/npm-hosted/"
   }
 }

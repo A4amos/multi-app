@@ -1,0 +1,61 @@
+name: Publish Node Package To Nexus Repository
+
+on:
+    push: 
+        branches:
+            - main
+    pull_request:
+        branches:
+            - main
+
+permissions:
+    contents: read
+    packages: write
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        defaults:
+            run:
+                working-directory: ./node-package
+
+        steps: 
+            - name: Checkout repository
+              uses: actions/checkout@v3
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with: 
+                node-version: 20
+            
+            - name: Configure npm for Nexus Repository
+              run: |
+                AUTH=$(echo -n "${{ secrets.NEXUS_USERNAME }}:${{ secrets.NEXUS_PASSWORD }}" | base64)
+
+                cat > ~/.npmrc <<EOF
+                registry=https://n.smartcloud9.online/repository/npm-hosted/
+                //n.smartcloud9.online/repository/npm-hosted/:_auth=$AUTH
+                //n.smartcloud9.online/repository/npm-hosted/:always-auth=true
+                EOF
+
+                env:
+                  NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
+                  NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
+
+                
+
+
+
+
+
+
+
+
+
+
+
+            - name: Install dependencies
+              run: npm install 
+
+            - name: Build package
+              run: npm run build  
