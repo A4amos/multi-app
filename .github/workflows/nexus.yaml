@@ -1,4 +1,4 @@
-name: Publish Node Package To Nexus Repository
+name: Publish Node Package To Nexus Repository and store
 
 on:
     push: 
