@@ -35,10 +35,10 @@ jobs:
             - name: Build package
               run: npm run build  
 
-            # - name: Publish package now
-            #   run: npm publish
-            #   env:
-            #     NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
+            - name: Publish package now
+              run: npm publish
+              env:
+                NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
 
 
             # - name: Read package version
