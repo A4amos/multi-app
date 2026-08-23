@@ -1,6 +1,6 @@
 {
-  "name": "@smartcloud2023/smartmath-node",
-  "version": "3.1.0",
+  "name": "@A4amos/smartmath-node",
+  "version": "1.0.0",
   "description": "A small Node.js mathematics package",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/smartcloud2023/multi-app.git"
+    "url": "https://github.com/A4amos/multi-app.git"
   },
   "publishConfig": {
-    "registry": "https://n.smartcloud9.online/repository/npm-hosted/"
+    "registry": "https://n.neaonim.online/repository/npm-hosted/"
   }
 }
