@@ -11,11 +11,9 @@
     "type": "git",
     "url": "https://github.com/A4amos/multi-app.git"
   },
-  
+
   "publishConfig": {
 
     "registry": "https://npm.pkg.github.com"
-
-    // "registry": "https://n.neaonim.online/repository/npm-hosted/"
   }
 }
