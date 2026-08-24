@@ -1,6 +1,6 @@
 {
   "name": "@A4amos/smartmath-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small Node.js mathematics package",
   "main": "index.js",
   "scripts": {
