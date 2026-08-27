@@ -1,6 +1,6 @@
 {
   "name": "@A4amos/smartmath-node",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "A small Node.js mathematics package",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,9 @@
 
   "publishConfig": {
 
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://n.neaonim.online/repository/npm-hosted/"
+    
   }
 }
+
+//  "registry": "https://npm.pkg.github.com"
