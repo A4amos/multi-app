@@ -14,7 +14,7 @@ permissions:
 
 jobs:
     build:
-        runs-on: ubuntu-latest
+        runs-on: amos-runner
         defaults:
             run:
                 working-directory: ./node-package
@@ -46,7 +46,7 @@ jobs:
               run: npm whoami --registry https://n.neaonim.online/repository/npm-hosted/
                 
             - name: Install dependencies,
-              run: npm install 
+              run: npm ci 
 
             - name: Build package
               run: npm run build
