@@ -10,7 +10,7 @@
 
     <groupId>com.A4amos</groupId>
     <artifactId>smartmath-java</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>smartmath-java</name>
     <description>A small Java mathematics package</description>
