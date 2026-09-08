@@ -8,7 +8,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.smartcloud2023</groupId>
+    <groupId>com.A4amos</groupId>
     <artifactId>smartmath-java</artifactId>
     <version>1.0.0</version>
 
@@ -24,7 +24,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/smartcloud2023/smartcloud-multi-language-packages</url>
+            <url>https://maven.pkg.github.com/A4amos/multi-app</url>
         </repository>
     </distributionManagement>
 
