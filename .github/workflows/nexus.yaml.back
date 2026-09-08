@@ -26,7 +26,7 @@ jobs:
             - name: Set up Node.js
               uses: actions/setup-node@v4
               with: 
-                node-version: 20
+                node-version: 24
             
             - name: Configure npm for Nexus Repository
               run: |
@@ -48,8 +48,8 @@ jobs:
             - name: Install dependencies,
               run: npm ci 
 
-            - name: Build package
-              run: npm run build
+            # - name: Build package
+            #   run: npm run build
 
             - name: Publish package to Nexus Repository
               run: npm publish
