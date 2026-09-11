@@ -8,9 +8,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.A4amos</groupId>
+    <groupId>A4amos</groupId>
     <artifactId>smartmath-java</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
 
     <name>smartmath-java</name>
     <description>A small Java mathematics package</description>
@@ -22,9 +22,9 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/A4amos/multi-app</url>
+            <id>maven-hosted</id>
+            <name>Nexus Repository</name>
+            <url>https://n.neaonim.online/repository/maven-hosted/</url>
         </repository>
     </distributionManagement>
 

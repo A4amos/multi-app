@@ -14,10 +14,10 @@ permissions:
 
 jobs:
     build:
-        runs-on: amos-runner
+        runs-on: ubuntu-latest
         defaults:
             run:
-                working-directory: ./node-package
+                working-directory: ./java-package
 
         steps: 
             - name: Checkout repository
