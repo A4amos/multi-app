@@ -34,4 +34,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python -m build
-          python -m twine upload --repository-url https://upload.pypi.pkg.github.com/A4amos/ dist/*
+          python -m twine upload --repository-url https://upload.pypi.pkg.github.com/A4amos/ dist/* --username __token__ --password $GITHUB_TOKEN
